@@ -1,0 +1,51 @@
+@media (max-width: 414px) {
+
+    body {
+        flex-direction: column;
+    }
+
+    .list-card {
+        display: none;
+    }
+
+    .container {
+        max-width: 414px;
+    }
+
+    .logo h3 {
+        color: #252B42;
+        padding: 0 0 0 36px;
+    }
+
+    nav {
+        a {
+            display: none;
+        }
+
+        .cta-nav {
+            display: none;
+        }
+
+        }
+    }
+
+    .nav-button {
+        display: block;
+    }
+
+    .cta {
+        flex-direction: column;
+        
+        h1 {
+            width: 343px;
+            height: 171px;
+            font-weight: 700;
+            font-size: 40px;
+        }
+
+        h4 {
+            width: 279px;
+            font-weight: 500;
+            font-size: 20px;
+        }
+    }
